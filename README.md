@@ -56,16 +56,22 @@ CALCULATE, SUMX, DIVIDE, FILTER, ALL, DATESYTD
 Built 3 interactive dashboards and 3 AI powered advanced analytics:
 
 ### Executive Dashboard
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Executive%20Dashboard.png?raw=true" width="900"> </p>
 
 ### Customer Detail Dashboard
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Customer%20Detail.png?raw=true" width="900"> </p>
 
 ### Product Detail Dashboard
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Product%20Detail.png?raw=true" width="900"> </p>
 
 ### Decomposition Tree
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Decompostion%20Trees.png?raw=true" width="900"> </p>
 
 ### Key Influencers
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Key%20Influencers.png?raw=true" width="900"> </p>
 
 ### Q&A
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Q&A.png?raw=true" width="900"> </p>
 
 # Skills Used
 

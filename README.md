@@ -53,13 +53,19 @@ CALCULATE, SUMX, DIVIDE, FILTER, ALL, DATESYTD
 
 ## Step 4: Visualization (Power BI Report)
 
-Built 3 interactive dashboards:
+Built 3 interactive dashboards and 3 AI powered advanced analytics:
 
 ### Executive Dashboard
 
 ### Customer Detail Dashboard
 
 ### Product Detail Dashboard
+
+### Decomposition Tree
+
+### Key Influencers
+
+### Q&A
 
 # Skills Used
 

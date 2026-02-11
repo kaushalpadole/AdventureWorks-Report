@@ -24,14 +24,15 @@ The objective was to build an interactive dashboard solution to provide real-tim
 
 ## Step 2: Data Modeling
 
-- Built a star schema model
+- Built a star schema model:
+  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Data%20Model.png?raw=true" width="900"> </p>
 
 - Created relationships between:
-  - Fact Sales
-  - Customer Dimension
-  - Product Dimension
-  - Date Table
+  - Fact Sales tables
+  - Customer Dimension tables
+  - Product Dimension tables
   - Ensured proper cardinality and filtering direction
+  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Relationships.png?raw=true" width="900"> </p>
 
 ## Step 3: DAX Calculations
 

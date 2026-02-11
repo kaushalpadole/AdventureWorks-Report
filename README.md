@@ -25,14 +25,14 @@ The objective was to build an interactive dashboard solution to provide real-tim
 ## Step 2: Data Modeling
 
 - Built a star schema model:
-  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Data%20Model.png?raw=true" width="900"> </p>
+  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Data%20Model.png?raw=true" width="900"> </p>
 
 - Created relationships between:
   - Fact Sales tables
   - Customer Dimension tables
   - Product Dimension tables
   - Ensured proper cardinality and filtering direction
-  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Relationships.png?raw=true" width="900"> </p>
+  <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Relationships.png?raw=true" width="900"> </p>
 
 ## Step 3: DAX Calculations
 
@@ -57,22 +57,22 @@ CALCULATE, SUMX, DIVIDE, FILTER, ALL, DATESYTD
 Built 3 interactive dashboards and 3 AI powered advanced analytics:
 
 ### Executive Dashboard
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Executive%20Dashboard.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Executive%20Dashboard.png?raw=true" width="900"> </p>
 
 ### Customer Detail Dashboard
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Customer%20Detail.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Customer%20Detail.png?raw=true" width="900"> </p>
 
 ### Product Detail Dashboard
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Product%20Detail.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Product%20Detail.png?raw=true" width="900"> </p>
 
 ### Decomposition Tree
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Decompostion%20Trees.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Decompostion%20Trees.png?raw=true" width="900"> </p>
 
 ### Key Influencers
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Key%20Influencers.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Key%20Influencers.png?raw=true" width="900"> </p>
 
 ### Q&A
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/Q&A.png?raw=true" width="900"> </p>
+<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Q&A.png?raw=true" width="900"> </p>
 
 # Skills Used
 

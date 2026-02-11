@@ -24,14 +24,16 @@ The objective was to build an interactive dashboard solution to provide real-tim
 
 ## Step 2: Data Modeling
 
-- Built a star schema model:
+### Key Components of the Model:
+1. Fact Tables: Centered around Sales Data and Returns Data, containing quantitative measures like OrderQuantity and ReturnQuantity.
+2. Dimension Tables (Lookups): Provide descriptive context for the facts, including Customer, Product, Territory, and a dedicated Calendar table for time-intelligence analysis.
+3. Snowflake Elements: The model includes a sub-hierarchy for products (Product Subcategories and Categories) to allow for granular "drill-down" analysis.
   <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Data%20Model.png?raw=true" width="900"> </p>
 
-- Created relationships between:
-  - Fact Sales tables
-  - Customer Dimension tables
-  - Product Dimension tables
-  - Ensured proper cardinality and filtering direction
+### Technical Implementation Details:
+1. Cardinality: Mostly One-to-Many (1:*) relationships, ensuring data integrity and preventing many-to-many ambiguity.
+2. Filter Direction: Primarily One-way filtering (from Lookups to Facts) to maintain high performance and predictable results in DAX calculations.
+3. Date Intelligence: A central Calendar Lookup table is linked to both Sales and Returns, enabling year-over-year comparisons and trend analysis.
   <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Relationships.png?raw=true" width="900"> </p>
 
 ## Step 3: DAX Calculations

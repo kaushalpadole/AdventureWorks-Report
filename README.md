@@ -1,2 +1,149 @@
 # AdventureWorks-Report
 This repository contains a comprehensive Power BI project focused on analyzing sales, products, and customer data for AdventureWorks, a global manufacturing company. The project transforms raw data into actionable insights through a multi-stage ETL and visualization process.
+
+# Business Problem 
+Adventure Works, a retail company, wants to:
+
+1. Monitor overall business performance (Revenue, Profit, Orders, Return Rate)
+2. Identify top customers and high-value segments
+3. Track product-level performance vs targets
+4. Analyze return trends and category performance
+5. Support management with data-driven decisions
+
+The objective was to build an interactive dashboard solution to provide real-time business insights across executive, customer, and product levels.
+
+# Methodology
+
+## Step 1: Data Preparation (Power Query Editor)
+
+- Cleaned missing and inconsistent values
+- Removed duplicates
+- Standardized column formats (date, currency, categories)
+- Created calculated columns where necessary
+- Transformed raw tables into structured fact & dimension tables
+
+## Step 2: Data Modeling
+
+- Built a star schema model
+
+- Created relationships between:
+  - Fact Sales
+  - Customer Dimension
+  - Product Dimension
+  - Date Table
+  - Ensured proper cardinality and filtering direction
+
+## Step 3: DAX Calculations
+
+Created a measure table consisting of key measures such as:
+
+1. Total Revenue
+2. Total Profit
+3. Total Orders
+4. Return Rate
+5. Revenue per Customer
+6. Monthly Revenue & Profit Trends
+7. Target vs Actual KPIs
+8. Adjusted Profit (Price Adjustment Simulation)
+9. Top N Customers & Products
+
+Used advanced DAX functions like,
+
+CALCULATE, SUMX, DIVIDE, FILTER, ALL, DATESYTD
+
+## Step 4: Visualization (Power BI Report)
+
+Built 3 interactive dashboards:
+
+### Executive Dashboard
+
+### Customer Detail Dashboard
+
+### Product Detail Dashboard
+
+# Skills Used
+
+- Power BI
+- Power Query (ETL)
+- Data Cleaning
+- Data Transformation
+- Data Modeling (Star Schema)
+- DAX (Data Analysis Expressions)
+- KPI Design
+- Dashboard Design Principles
+- Data Visualization
+
+# Results
+
+- Built an interactive executive-level reporting solution
+- Identified top revenue-generating categories (Accessories leading)
+- Analyzed high-return products for quality investigation
+- Tracked revenue growth trend from 2020–2022
+- Enabled product-level performance tracking vs target
+- Simulated price adjustments to analyze impact on profit
+
+### Business impact:
+
+1. Improved visibility into sales & profitability
+2. Identified optimization opportunities
+3. Enabled data-driven strategic decisions
+
+# Business Recommendations
+
+1. Focus on High-Performing Categories:
+   Accessories generate the highest orders — consider expanding product line or marketing efforts.
+
+2. Reduce Product Return Rates:
+   Some products show higher return percentages
+   Product quality issues
+   Incorrect product descriptions, shipping damage
+
+3. Optimize Pricing Strategy:
+   Use the Price Adjustment Simulation to test price increases
+   Maximize profit without significantly impacting demand
+
+4. Strengthen Customer Retention:
+   Focus on high-value customers
+   Launch loyalty programs
+   Personalized marketing campaigns
+
+5. Improve Underperforming Products
+
+Products below target require:
+
+- Promotional campaigns
+- Bundling strategies
+- Inventory adjustments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

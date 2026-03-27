@@ -73,8 +73,6 @@ Built 3 interactive dashboards and 3 AI powered advanced analytics:
 ### Key Influencers
 <p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Key%20Influencers.png?raw=true" width="900"> </p>
 
-### Q&A
-<p align="center"> <img src="https://github.com/kaushalpadole/AdventureWorks-Report/blob/main/assets/Q&A.png?raw=true" width="900"> </p>
 
 # Skills Used
 
